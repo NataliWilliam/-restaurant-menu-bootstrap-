@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  color: black;
+
+  font-family: "Oxygen", sans-serif;
+}
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-top: 0px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+.color {
+  background-color: rgba(128, 128, 128, 0.603);
+  margin-bottom: 0px;
+}
+p {
+  padding: 10px;
+  padding-top: 0px;
+}
+.display {
+  display: block;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  font-weight: bold;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 1px solid black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.food {
+  color: black;
+
+  position: relative;
+  bottom: 10px;
+  font-weight: 800;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p {
+  color: #000;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-top: 15px;
+}
+.navbar-brand p span {
+  vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #e7e7e7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* phone */
+@media (max-width: 767px) {
+  .display {
+    padding-bottom: 0px;
+  }
+  .color {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  h2 {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-weight: bold;
+  }
+  .container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #header-nav {
+    margin: 0px;
+  }
+  .food {
+    color: black;
+
+    position: relative;
+    bottom: 5px;
+    padding-left: 15px;
+    font-weight: 800;
+  }
+  button {
+    position: relative;
+    bottom: 5px;
+  }
+  #collapsable-nav {
+    background-color: white;
+  }
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+    border-top: 1px solid black;
+  }
+  #collapsable-nav a span {
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #nav-list {
+    margin-top: 0px;
+  }
+  .navbar-nav {
+    margin: 0px -15px;
+  }
+}
